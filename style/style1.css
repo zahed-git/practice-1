@@ -1,3 +1,85 @@
-h2{
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+.mheader{
+}
+
+h2 {
     color: blue;
+}
+
+nav ul li {
+    display: inline;
+    font-size: medium;
+    letter-spacing: 2px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+.main{
+
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.khana {
+    background-image: url('../assets/photo/food/140623921_426264578449707_6896208837814148878_n.jpg');
+    height: 150vh;
+    background-position: bottom center;
+    background-size: cover;
+    
+
+}
+
+main div h3 {
+    color: white;
+    padding: 60px;
+    font-size: 100px;
+    text-align: center;
+
+}
+.header{
+    font-size:30px;
+    text-align: center;
+    border: 2px solid rgb(133, 160, 13);
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+}
+
+article{
+    border-width: 5px;
+    border-style: groove;
+    border-color: blueviolet;
+    width: 80%;
+    margin: 30px auto;
+    text-align: justify;
+    background-color: aquamarine;
+    padding: 30px;
+
+}
+.design{
+    
+    margin: auto 60px;
+    text-align: center;
+    padding: 80%;
+
+}
+.yammm{
+    text-align: right;
+    color: rgb(212, 131, 24);
+}
+
+footer {
+    text-align: center;
+    color: rgb(9, 119, 24);
 }
